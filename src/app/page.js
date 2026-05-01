@@ -14,12 +14,7 @@ import Link from 'next/link';
 import products from '../data/products';
 import ProductCard from '../components/ProductCard';
 
-const CATEGORIES = [
-  { key: 'all', label: 'All' },
-  { key: 'coffee', label: '☕ Coffee' },
-  { key: 'food', label: '🥐 Food' },
-  { key: 'drinks', label: '🥤 Drinks' },
-];
+
 
 export default function HomePage() {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -74,20 +69,7 @@ export default function HomePage() {
           </div>
 
           {/* ── Category filter tabs ── */}
-          <div className="filter-tabs" role="tablist" aria-label="Filter products by category">
-            {CATEGORIES.map(({ key, label }) => (
-              <button
-                key={key}
-                id={`filter-tab-${key}`}
-                role="tab"
-                aria-selected={activeCategory === key}
-                onClick={() => setActiveCategory(key)}
-                className={`filter-tab${activeCategory === key ? ' filter-tab--active' : ''}`}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
+
 
           {/* ── Product grid ── */}
           {filtered.length === 0 ? (
