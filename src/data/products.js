@@ -8,10 +8,10 @@ const products = [
   // ── COFFEE ────────────────────────────────────────────────
   {
     id: "arabica",
-    name: "Arabica",
+    name: "Cà Phê Hòa Tan Arabica",
     description:
-      "Our signature Arabica blend sourced from the highlands of Vietnam. Bright, fruity notes with a smooth, lingering finish. Perfectly roasted to unlock its full floral complexity — ideal as both a pour-over and a classic espresso.",
-    price: 55000,
+      "Arabica mang cảm hứng từ những hạt cà phê Gia Lai, nổi bật với hương vị thanh nhẹ và tinh tế. Vị chua dịu mở đầu, tiếp nối là hậu ngọt thanh mượt mà, tạo nên tổng thể cân bằng và dễ chịu. Không quá đậm, không gắt, Arabica gợi cảm giác nhẹ nhàng nhưng vẫn đủ chiều sâu — như mang chất cao nguyên vào nhịp sống thành phố trong từng ly cà phê.",
+    price: 149000,
     category: "coffee",
     image: "/image/arabica.png",
     rating: 4.9,
@@ -19,10 +19,10 @@ const products = [
   },
   {
     id: "mocha",
-    name: "Moka ",
+    name: "Cà Phê Hòa Tan Moka",
     description:
-      "A velvety fusion of premium espresso and rich dark chocolate, crowned with silky steamed milk. Our Mocha strikes the perfect balance between bitter cacao depth and creamy sweetness — a coffeehouse classic, elevated.",
-    price: 60000,
+      "Moka mang cảm hứng từ những hạt cà phê Gia Lai, kết hợp cùng cacao để tạo nên hương vị cân bằng và êm mượt. Vị đậm nhẹ nhàng mở đầu, hòa quyện với hậu ngọt béo tinh tế, gợi cảm giác vừa gần gũi, vừa hiện đại — như mang chất cao nguyên vào nhịp sống thành phố trong từng ly cà phê.",
+    price: 159000,
     category: "coffee",
     image: "/image/moka.png",
     rating: 4.8,
@@ -30,10 +30,10 @@ const products = [
   },
   {
     id: "robusta",
-    name: "Robusta",
+    name: "Cà Phê Hòa Tan Robusta",
     description:
-      "Bold, full-bodied Robusta with earthy undertones and an intense caffeine punch. Traditionally drip-brewed with a Vietnamese phin filter and served over ice with sweetened condensed milk. A timeless afternoon ritual.",
-    price: 45000,
+      "Robusta mang cảm hứng từ những hạt cà phê Gia Lai, nổi bật với hương vị đậm đà và mạnh mẽ. Vị đắng rõ nét mở đầu, tiếp nối là hậu vị sâu và dày, tạo nên tổng thể tròn vị và đầy năng lượng. Không cầu kỳ, không nhẹ nhàng, Robusta dành cho những ai yêu cà phê nguyên bản — như mang chất cao nguyên mạnh mẽ vào nhịp sống thành phố trong từng ly cà phê.",
+    price: 79000,
     category: "coffee",
     image: "/image/robusta.png",
     rating: 4.7,
