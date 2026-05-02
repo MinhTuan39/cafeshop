@@ -19,7 +19,7 @@ const products = [
   },
   {
     id: "mocha",
-    name: "Mocha ",
+    name: "Moka ",
     description:
       "A velvety fusion of premium espresso and rich dark chocolate, crowned with silky steamed milk. Our Mocha strikes the perfect balance between bitter cacao depth and creamy sweetness — a coffeehouse classic, elevated.",
     price: 60000,
