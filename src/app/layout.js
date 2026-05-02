@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           {/* Site-wide footer */}
           <footer className="site-footer">
             <p>
-              © {new Date().getFullYear()} <strong>Café Chính Thức</strong>. Crafted with ☕ and passion.
+              © {new Date().getFullYear()} <strong>Urban Coffee</strong>. Crafted with ☕ and passion.
             </p>
           </footer>
         </CartProvider>
