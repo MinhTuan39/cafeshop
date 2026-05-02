@@ -8,34 +8,34 @@ const products = [
   // ── COFFEE ────────────────────────────────────────────────
   {
     id: "arabica",
-    name: "Arabica Chính Thức",
+    name: "Arabica",
     description:
       "Our signature Arabica blend sourced from the highlands of Vietnam. Bright, fruity notes with a smooth, lingering finish. Perfectly roasted to unlock its full floral complexity — ideal as both a pour-over and a classic espresso.",
     price: 55000,
     category: "coffee",
-    image: "/image/arabicachinhthuc.jpg",
+    image: "/image/arabica.png",
     rating: 4.9,
     popular: true,
   },
   {
     id: "mocha",
-    name: "Mocha Chính Thức",
+    name: "Mocha ",
     description:
       "A velvety fusion of premium espresso and rich dark chocolate, crowned with silky steamed milk. Our Mocha strikes the perfect balance between bitter cacao depth and creamy sweetness — a coffeehouse classic, elevated.",
     price: 60000,
     category: "coffee",
-    image: "/image/mokachinhthuc.jpg",
+    image: "/image/moka.png",
     rating: 4.8,
     popular: true,
   },
   {
     id: "robusta",
-    name: "Robusta Bao Bì Chính Thức",
+    name: "Robusta",
     description:
       "Bold, full-bodied Robusta with earthy undertones and an intense caffeine punch. Traditionally drip-brewed with a Vietnamese phin filter and served over ice with sweetened condensed milk. A timeless afternoon ritual.",
     price: 45000,
     category: "coffee",
-    image: "/image/robustabaobichinhthuc.jpg",
+    image: "/image/robusta.png",
     rating: 4.7,
     popular: true,
   },

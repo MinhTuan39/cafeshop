@@ -58,9 +58,9 @@ export default function ProductCard({ product }) {
             src={product.image}
             alt={product.name}
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            sizes="(max-width: 500px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="card-image"
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'contain', padding: '1rem' }}
             unoptimized={!isLocal}
           />
         </div>
