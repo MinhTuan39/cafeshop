@@ -45,14 +45,14 @@ export default function HomePage() {
 
         {/* Hero text content */}
         <div className="hero-content">
-          <span className="hero-eyebrow">Est. 2020 · Ho Chi Minh City</span>
-          <h1 className="hero-title">Café Chính Thức</h1>
+          <span className="hero-eyebrow">Est. 2026 · Da Nang</span>
+          <h1 className="hero-title">Urban Coffee</h1>
           <p className="hero-tagline">
-            Authentic Vietnamese coffee, crafted with tradition and served with heart.
-            Your perfect cup is waiting.
+            Tinh hoa cà phê Việt từ những hạt tuyển chọn nơi cao nguyên, mang đến hương vị đậm đà nhưng vẫn tinh tế và dễ thưởng thức.
+            Mỗi ly là sự cân bằng giữa truyền thống và hiện đại, sẵn sàng cho mọi khoảnh khắc trong ngày.
           </p>
           <Link href="#menu" id="hero-cta" className="hero-cta">
-            Explore Our Menu ↓
+            Sản Phẩm Của Urban ↓
           </Link>
         </div>
       </section>
@@ -62,9 +62,9 @@ export default function HomePage() {
         <div className="container">
           {/* Section heading */}
           <div className="menu-header">
-            <h2 className="section-title">Our Menu</h2>
+            <h2 className="section-title">Sản Phẩm</h2>
             <p className="section-subtitle">
-              Handpicked blends, freshly brewed and lovingly made
+              Những loại cà phê được chọn kỹ lưỡng, pha chế tươi mới và làm bằng cả tấm lòng
             </p>
           </div>
 

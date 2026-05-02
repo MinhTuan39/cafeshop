@@ -7,7 +7,7 @@
 const products = [
   // ── COFFEE ────────────────────────────────────────────────
   {
-    id: "arabica",
+    id: "Arabica",
     name: "Cà Phê Hòa Tan Arabica",
     description:
       "Arabica mang cảm hứng từ những hạt cà phê Gia Lai, nổi bật với hương vị thanh nhẹ và tinh tế. Vị chua dịu mở đầu, tiếp nối là hậu ngọt thanh mượt mà, tạo nên tổng thể cân bằng và dễ chịu. Không quá đậm, không gắt, Arabica gợi cảm giác nhẹ nhàng nhưng vẫn đủ chiều sâu — như mang chất cao nguyên vào nhịp sống thành phố trong từng ly cà phê.",
@@ -18,7 +18,7 @@ const products = [
     popular: true,
   },
   {
-    id: "mocha",
+    id: "Moka",
     name: "Cà Phê Hòa Tan Moka",
     description:
       "Moka mang cảm hứng từ những hạt cà phê Gia Lai, kết hợp cùng cacao để tạo nên hương vị cân bằng và êm mượt. Vị đậm nhẹ nhàng mở đầu, hòa quyện với hậu ngọt béo tinh tế, gợi cảm giác vừa gần gũi, vừa hiện đại — như mang chất cao nguyên vào nhịp sống thành phố trong từng ly cà phê.",
@@ -29,7 +29,7 @@ const products = [
     popular: true,
   },
   {
-    id: "robusta",
+    id: "Robusta",
     name: "Cà Phê Hòa Tan Robusta",
     description:
       "Robusta mang cảm hứng từ những hạt cà phê Gia Lai, nổi bật với hương vị đậm đà và mạnh mẽ. Vị đắng rõ nét mở đầu, tiếp nối là hậu vị sâu và dày, tạo nên tổng thể tròn vị và đầy năng lượng. Không cầu kỳ, không nhẹ nhàng, Robusta dành cho những ai yêu cà phê nguyên bản — như mang chất cao nguyên mạnh mẽ vào nhịp sống thành phố trong từng ly cà phê.",
