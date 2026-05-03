@@ -45,14 +45,17 @@ export default function HomePage() {
 
         {/* Hero text content */}
         <div className="hero-content">
-          <span className="hero-eyebrow">Est. 2026 · Da Nang</span>
+          <span className="hero-eyebrow">Premium Coffee Experience</span>
           <h1 className="hero-title">Urban Coffee</h1>
           <p className="hero-tagline">
-            Tinh hoa cà phê Việt từ những hạt tuyển chọn nơi cao nguyên, mang đến hương vị đậm đà nhưng vẫn tinh tế và dễ thưởng thức.
-            Mỗi ly là sự cân bằng giữa truyền thống và hiện đại, sẵn sàng cho mọi khoảnh khắc trong ngày.
+            Đánh thức giác quan với hương vị cà phê nguyên bản, được rang xay thủ công từ những hạt Arabica tuyển chọn.
+            Khám phá không gian tinh tế và trọn vẹn từng khoảnh khắc.
           </p>
           <Link href="#menu" id="hero-cta" className="hero-cta">
-            Sản Phẩm Của Urban ↓
+            Khám Phá Thực Đơn
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+            </svg>
           </Link>
         </div>
       </section>

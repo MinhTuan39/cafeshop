@@ -7,9 +7,10 @@
 import './globals.css';
 import { CartProvider } from '../context/CartContext';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Café Chính Thức — Premium Vietnamese Coffee',
+  title: 'Urban Coffee — Premium Vietnamese Coffee',
   description:
     'Experience the finest Vietnamese coffee blends — Arabica, Mocha, Robusta and more. Order fresh, handcrafted beverages and artisan food at Café Chính Thức.',
   keywords: 'cafe, Vietnamese coffee, Arabica, Mocha, Robusta, coffee shop',
@@ -37,11 +38,7 @@ export default function RootLayout({ children }) {
           <main className="page-wrapper">{children}</main>
 
           {/* Site-wide footer */}
-          <footer className="site-footer">
-            <p>
-              © {new Date().getFullYear()} <strong>Urban Coffee</strong>. Crafted with ☕ and passion.
-            </p>
-          </footer>
+          <Footer />
         </CartProvider>
       </body>
     </html>

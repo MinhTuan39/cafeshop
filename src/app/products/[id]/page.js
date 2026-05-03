@@ -59,13 +59,13 @@ export default function ProductDetailPage({ params }) {
 
         <div className="detail-grid">
           {/* ── Left: Product image ── */}
-          <div className="detail-image-wrapper">
+          <div className="detail-image-wrapper" style={{ maxWidth: '450px', margin: '0 auto', aspectRatio: '4/5' }}>
             <Image
               src={product.image}
               alt={product.name}
               fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              style={{ objectFit: 'cover' }}
+              sizes="(max-width: 450px) 100vw, 450px"
+              style={{ objectFit: 'cover', borderRadius: 'var(--radius-md)' }}
               unoptimized={!isLocal}
               loading="eager"
             />
