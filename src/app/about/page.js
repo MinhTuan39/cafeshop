@@ -8,19 +8,19 @@ export default function AboutPage() {
           <Image src="/image/about-1.png" alt="Coffee beans" fill style={{ objectFit: 'cover' }} />
         </div>
         <div className="about-text-wrapper">
-          <h2 className="about-title">Hữu cơ - Hơn cả một chứng nhận</h2>
+          <h2 className="about-title">Từ Gia Lai đến nhịp sống thành thị</h2>
           <p className="about-desc">
-            Từ lâu trước khi "hữu cơ" trở thành xu hướng toàn cầu, chúng tôi đã chọn con đường khó hơn – canh tác không hóa chất, bảo vệ đất và nguồn nước, đồng thời minh bạch trong từng công đoạn. Năm 2018, L'amant Café tự hào trở thành nơi sở hữu nông trại cà phê đầu tiên tại Việt Nam đạt chứng nhận hữu cơ USDA (Bộ Nông nghiệp Hoa Kỳ). Nhưng với chúng tôi, đó không phải là điểm đến – mà là khởi đầu cho một cam kết trọn đời với sức khỏe cộng đồng, cân bằng sinh thái và những phương thức canh tác bền vững hơn.
+            Urban Coffee mang trọn tinh hoa cà phê cao nguyên vào từng sản phẩm cà phê hòa tan, kết hợp hài hòa giữa ba dòng hạt đặc trưng: Moka tinh tế, Arabica thanh thoát và Robusta đậm đà. Được nuôi dưỡng bởi khí hậu và thổ nhưỡng lý tưởng, từng hạt cà chín được tuyển chọn kỹ lưỡng, trải qua quy trình rang xay và chiết xuất hiện đại nhằm giữ trọn hương thơm tự nhiên cùng chiều sâu hương vị. Không chỉ dừng lại ở chất lượng, Urban Coffee còn tối ưu sự tiện lợi, giúp bạn dễ dàng thưởng thức một ly cà phê chuẩn gu – dù ở văn phòng, tại nhà hay giữa nhịp sống bận rộn của thành phố.
           </p>
           <button className="about-btn">Xem ngay</button>
         </div>
       </section>
-      
+
       <section className="about-section about-section-reverse">
         <div className="about-text-wrapper">
-          <h2 className="about-title">Mỗi vị cà phê – Một cá tính riêng</h2>
+          <h2 className="about-title">Mỗi ly cà phê – Một cá tính riêng biệt</h2>
           <p className="about-desc">
-            Dù bạn yêu sự đậm đà truyền thống hay vị thanh nhẹ hiện đại, L'amant đều có lựa chọn dành riêng cho bạn. Từ cà phê pha phin, espresso đến capsule và drip bag tiện lợi – mỗi dòng sản phẩm mang một cá tính hương vị khác biệt, phản ánh gu thưởng thức độc đáo của từng người. L'amant Café không chỉ phục vụ cà phê – chúng tôi mang đến trải nghiệm cá nhân hóa trong từng tách cà phê mỗi ngày.
+            Sự hòa quyện giữa Moka, Arabica và Robusta tạo nên những tầng hương vị phong phú, từ nhẹ nhàng tinh tế đến mạnh mẽ đậm sâu. Mỗi ly cà phê không chỉ đơn thuần là một thức uống, mà là một trải nghiệm mang dấu ấn cá nhân – phù hợp với nhiều phong cách thưởng thức khác nhau. Urban Coffee hướng đến sự cân bằng giữa chất lượng, cảm xúc và lối sống hiện đại, nơi từng ngụm cà phê không chỉ để tỉnh táo mà còn để tận hưởng, để cảm nhận và để khẳng định gu riêng của chính bạn.
           </p>
           <button className="about-btn">Xem ngay</button>
         </div>

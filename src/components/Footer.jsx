@@ -13,7 +13,7 @@ export default function Footer() {
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                 <circle cx="12" cy="10" r="3" />
               </svg>
-              <span>Văn phòng Đại diện: 22A Võ Văn Tần, Phường Võ Thị Sáu, Q.3, TP.HCM</span>
+              <span>Văn phòng Đại diện: Lê Cơ, K62/H12/2, Hòa Cường Bắc, TP. Đà Nẵng</span>
             </li>
             <li className="footer-info-item">
               <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -26,17 +26,17 @@ export default function Footer() {
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                 <polyline points="22,6 12,13 2,6" />
               </svg>
-              <span>info@lamantcafe.com</span>
+              <span>UrbanCoffee@gmail.com</span>
             </li>
           </ul>
           <div className="footer-badges">
             {/* Placeholders for the badges */}
             <div style={{ background: '#0070ba', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '4px' }}>
-               <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/></svg>
-               ĐÃ THÔNG BÁO BỘ CÔNG THƯƠNG
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" /></svg>
+              ĐÃ THÔNG BÁO BỘ CÔNG THƯƠNG
             </div>
             <div style={{ background: '#ffffff', color: '#333', padding: '4px', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
-               <div style={{ width: '20px', height: '20px', background: 'linear-gradient(45deg, red, green, blue, orange)', borderRadius: '2px' }}></div>
+              <div style={{ width: '20px', height: '20px', background: 'linear-gradient(45deg, red, green, blue, orange)', borderRadius: '2px' }}></div>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>Copyright © {new Date().getFullYear()} L'amant Café.</p>
+        <p>Copyright © {new Date().getFullYear()} Urban Coffee.</p>
       </div>
 
       {/* Floating contact button */}
