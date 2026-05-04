@@ -10,7 +10,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Urban Coffee — Premium Vietnamese Coffee',
+  title: 'Urban Coffee — CÔNG TY TNHH URBAN COFFEE',
   description:
     'Experience the finest Vietnamese coffee blends — Arabica, Mocha, Robusta and more. Order fresh, handcrafted beverages and artisan food at Café Chính Thức.',
   keywords: 'cafe, Vietnamese coffee, Arabica, Mocha, Robusta, coffee shop',

@@ -6,38 +6,43 @@ export default function Footer() {
       <div className="footer-container">
         {/* Column 1: Liên hệ */}
         <div className="footer-column">
+          <h2 className="footer-company-title">CÔNG TY TNHH URBAN COFFEE</h2>
           <h3 className="footer-heading">Liên hệ</h3>
           <ul className="footer-info-list">
             <li className="footer-info-item">
-              <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <span>Địa Chỉ : Lê Cơ, K62/H12/2, Hòa Cường Bắc, TP. Đà Nẵng</span>
+              <a href="https://www.google.com/maps/search/?api=1&query=K62/H12/2+Lê+Cơ,+Hòa+Cường+Bắc,+Đà+Nẵng" target="_blank" rel="noopener noreferrer" className="footer-info-link">
+                <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>Địa Chỉ : Lê Cơ, K62/H12/2, Hòa Cường Bắc, TP. Đà Nẵng</span>
+              </a>
             </li>
             <li className="footer-info-item">
-              <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.81 12.81 0 0 0 .62 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.62A2 2 0 0 1 22 16.92z" />
-              </svg>
-              <span>1900.0277</span>
+              <a href="tel:19000277" className="footer-info-link">
+                <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.81 12.81 0 0 0 .62 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.62A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <span>1900.0277</span>
+              </a>
             </li>
             <li className="footer-info-item">
-              <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                <polyline points="22,6 12,13 2,6" />
-              </svg>
-              <span>UrbanCoffee@gmail.com</span>
+              <a href="mailto:UrbanCoffee@gmail.com" className="footer-info-link">
+                <svg xmlns="http://www.w3.org/2000/svg" className="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <span>UrbanCoffee@gmail.com</span>
+              </a>
             </li>
           </ul>
           <div className="footer-badges">
-            {/* Placeholders for the badges */}
-            <div style={{ background: '#0070ba', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" /></svg>
-              ĐÃ THÔNG BÁO BỘ CÔNG THƯƠNG
-            </div>
-            <div style={{ background: '#ffffff', color: '#333', padding: '4px', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
-              <div style={{ width: '20px', height: '20px', background: 'linear-gradient(45deg, red, green, blue, orange)', borderRadius: '2px' }}></div>
-            </div>
+            <a href="http://online.gov.vn/" target="_blank" rel="noopener noreferrer" className="footer-badge-link">
+              <div style={{ background: '#0070ba', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" /></svg>
+                ĐÃ THÔNG BÁO BỘ CÔNG THƯƠNG
+              </div>
+            </a>
           </div>
         </div>
 
@@ -61,7 +66,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>Copyright © {new Date().getFullYear()} Urban Coffee.</p>
+        <p>Copyright © {new Date().getFullYear()} CÔNG TY TNHH URBAN COFFEE. All rights reserved.</p>
       </div>
 
       {/* Floating contact button */}
