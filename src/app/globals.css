@@ -262,9 +262,9 @@ img {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, 
-    rgba(0,0,0,0.2) 0%, 
-    rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.5) 100%);
   z-index: 1;
 }
 
@@ -289,6 +289,7 @@ img {
     opacity: 0;
     transform: translateY(30px) scale(0.95);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -312,7 +313,7 @@ img {
   color: #fff;
   margin-bottom: 1.5rem;
   line-height: 1.1;
-  text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .hero-tagline {
@@ -1088,7 +1089,8 @@ img {
 
 /* ── Footer ───────────────────────────────────────────────── */
 .site-footer {
-  background: #9a2c41; /* Burgundy footer background */
+  background: #9a2c41;
+  /* Burgundy footer background */
   color: #ffffff;
   padding: 4rem 1.25rem 0;
   font-size: 0.9rem;

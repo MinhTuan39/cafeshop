@@ -29,16 +29,16 @@ export default function HomePage() {
       {/* ══ HERO SECTION ══════════════════════════════════════ */}
       <section className="hero" aria-label="Hero banner">
         {/* Banner image */}
-        <div className="hero-image-wrapper">
-          <Image
-            src="/image/banner.jpg"
-            alt="Café Chính Thức — a warm, inviting coffee shop"
-            fill
-            style={{ objectFit: 'cover', objectPosition: 'center' }}
-            loading="eager"
-            sizes="100vw"
-          />
-        </div>
+
+        <Image
+          src="/image/banner.jpg"
+          alt="Café Chính Thức"
+          fill
+          style={{ objectFit: 'inherit' }}
+          priority
+          className='h-full'
+        />
+
 
         {/* Dark overlay for readability */}
         <div className="hero-overlay" aria-hidden="true" />
